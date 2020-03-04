@@ -272,6 +272,13 @@ DEFINE_FIELD(voltage_l2, FixedValue, ObisId(1, 0, 52, 7, 0), FixedField, units::
  * 5.0) */
 DEFINE_FIELD(voltage_l3, FixedValue, ObisId(1, 0, 72, 7, 0), FixedField, units::V, units::mV);
 
+/* Fuse supervision treshold L1 in A resolution */
+DEFINE_FIELD(fuse_treshold_l1, uint16_t, ObisId(1, 0, 31, 4, 0), IntField, units::A);
+/* Fuse supervision treshold L2 in A resolution */
+DEFINE_FIELD(fuse_treshold_l2, uint16_t, ObisId(1, 0, 51, 4, 0), IntField, units::A);
+/* Fuse supervision treshold L3 in A resolution */
+DEFINE_FIELD(fuse_treshold_l3, uint16_t, ObisId(1, 0, 71, 4, 0), IntField, units::A);
+
 /* Instantaneous current L1 in A resolution */
 DEFINE_FIELD(current_l1, uint16_t, ObisId(1, 0, 31, 7, 0), IntField, units::A);
 /* Instantaneous current L2 in A resolution */

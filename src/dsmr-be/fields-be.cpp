@@ -172,6 +172,18 @@ constexpr ObisId current_l3::id;
 constexpr char current_l3::name_progmem[];
 constexpr const __FlashStringHelper *current_l3::name;
 
+constexpr ObisId fuse_treshold_l1::id;
+constexpr char fuse_treshold_l1::name_progmem[];
+constexpr const __FlashStringHelper *fuse_treshold_l1::name;
+
+constexpr ObisId fuse_treshold_l2::id;
+constexpr char fuse_treshold_l2::name_progmem[];
+constexpr const __FlashStringHelper *fuse_treshold_l2::name;
+
+constexpr ObisId fuse_treshold_l3::id;
+constexpr char fuse_treshold_l3::name_progmem[];
+constexpr const __FlashStringHelper *fuse_treshold_l3::name;
+
 constexpr ObisId power_delivered_l1::id;
 constexpr char power_delivered_l1::name_progmem[];
 constexpr const __FlashStringHelper *power_delivered_l1::name;
